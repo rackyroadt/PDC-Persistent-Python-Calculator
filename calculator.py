@@ -106,11 +106,11 @@ def calculate():
         
         #div
         elif choice == 'div':
-        if num2 == 0:
-              print("Error: Division by zero is not allowed.")
-              continue
-        result = num1 / num2
-        operator_symbol = "/"
+            if num2 == 0:
+                print("Error: Division by zero is not allowed.")
+                continue
+            result = num1 / num2
+            operator_symbol = "/"
 
 
         expression = f"{num1} {operator_symbol} {num2}"
