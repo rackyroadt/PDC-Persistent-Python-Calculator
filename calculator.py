@@ -100,6 +100,9 @@ def calculate():
                 result = num1 - num2 
                 operator_symbol ="-"
         #mul
+        elif choice == 'mul':
+            result = num1 * num2
+            operator_symbol = "*" 
         
         #div
         elif choice == 'div':
